@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Layout Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #3498db; /* Blue background */
+      color: #333; /* Gray text color */
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .row {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+
+    .block {
+      flex: 1;
+      padding: 20px;
+      background-color: #e0e0e0;
+      border: 5px solid #e74c3c; /* Thick red border */
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="row">
+      <div class="block">
+        <p>Block one</p>
+        <p>Block one</p>
+      </div>
+      <div class="block">
+        <p>Block two</p>
+        <p>Block two</p>
+        <p>Block two</p>
+        <p>Block two</p>
+        <p>Block two</p>
+        <p>Block two</p>
+        <p>Block two</p>
+        <p>Block two</p>
+      </div>
+      <div class="block">
+        <p>Block three</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="block">
+        <p>Block four</p>
+      </div>
+      <div class="block">
+        <p>Block five</p>
+        <p>Block six</p>
+        <p>Block six</p>
+        <p>Block six</p>
+        <p>Block six</p>
+        <p>Block six</p>
+      </div>
+      <div class="block">
+        <p>Block six</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="block">
+        <p>Block seven</p>
+        <p>Block seven</p>
+      </div>
+      <div class="block">
+        <p>Block eight</p>
+        <p>Block nine</p>
+      </div>
+      <div class="block">
+        <p>Block nine</p>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
